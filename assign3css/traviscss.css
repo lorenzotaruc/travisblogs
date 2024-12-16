@@ -1,0 +1,8 @@
+aside#left-sidebar {
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+body {
+    padding-bottom: 40px;    
+}
