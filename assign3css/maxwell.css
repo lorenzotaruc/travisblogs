@@ -1,0 +1,127 @@
+body {
+    padding-top: 7rem;
+    /*background-color: saddlebrown;*/
+}
+/*navbar*/
+ul {
+    
+    margin-right: 4rem;
+}
+
+li {
+    margin-right: 3rem;
+}
+
+header {
+    margin-left: 4rem;
+}
+
+.nav-link {
+    transition: all 0.2;
+    position: relative;
+}
+
+.nav-link:hover::after {
+content: '';
+height: 4px;
+width: 100%;
+background-color: bisque;
+position: absolute;
+left: 0;
+bottom:0; 
+}
+
+/*main*/
+#carouselExample{
+    margin-left: 16rem;
+}
+
+#Biblographie{
+    margin-top: 2rem;
+    margin-left: 16rem;
+    margin-bottom: 20rem;
+    font-size: large;
+}
+
+/*cards*/
+#button {
+    display: none;
+}
+
+
+#mona {
+    background-color: lightslategrey;
+}
+
+#tenley{
+    background-color: darkmagenta;
+}
+
+#maxwell{
+    background-color: darkred;
+}
+
+@media screen and (max-height: 960px){
+    
+    #pic1{
+        height: 7.5rem !important;
+    }
+    #pic2 {
+        height: 7.5rem !important;
+    }
+    #pic3 {
+        height: 7.5rem !important;
+    }
+    
+}
+
+@media screen and (max-width: 655px) and (max-height: 960px){
+
+    #carouselExample {
+        margin-left: 0;
+        
+    }
+
+    #Biblographie{
+        margin-left: 0;
+    }
+
+    
+
+    #button {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 340px) and (max-height: 960px){ 
+    body {
+        padding-top: 10rem;
+        
+    }
+}
+
+@media screen and (max-width: 654px){
+
+    #carouselExample {
+        margin-left: 0;
+        
+    }
+
+    #Biblographie{
+        margin-left: 0;
+    }
+
+
+    #button {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 340px){ 
+    body {
+        padding-top: 10rem;
+        
+    }
+}
+
+
